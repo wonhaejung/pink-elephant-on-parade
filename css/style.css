@@ -9,6 +9,7 @@ https://mkrtchyan.ga
 body{width:auto;height:auto;
 	background-color:black; font-family: 'Luckiest Guy', cursive;
 	 font-family: 'Gugi', cursive;
+	 overflow: hidden;
 }
 
 
@@ -85,7 +86,7 @@ body{width:auto;height:auto;
 	border-radius:999px;
 	left:28%;
 	top:10.5%;
-	z-index:999;
+	z-index:30;
 	animation:rotatee 60s steps(60,end) infinite;
 }
 @keyframes rotatee{
